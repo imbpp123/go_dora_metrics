@@ -1,0 +1,14 @@
+run:
+  concurrency: 2
+  tests: false
+
+linters:
+  disable-all: true
+  enable:
+    - errcheck
+    - goimports
+    - revive
+    - govet
+    - staticcheck
+    - gocyclo
+    - funlen
